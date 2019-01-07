@@ -210,6 +210,7 @@ Mark an email as read...then unread after the crash:
 ```
 UPDATE emails SET read=TRUE WHERE id=101.01;
 ```
+
 CRASH!
 ```
 UPDATE emails SET read=FALSE WHERE id=101.01;
